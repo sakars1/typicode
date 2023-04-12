@@ -32,5 +32,28 @@
       "image": "https://example.com/images/product4.jpg",
       "quantity": 20
     }
+  ],
+  "orders": [
+    {
+      "key": "1",
+      "createdAt": "2022-04-13T12:34:56Z",
+      "name": "John Doe",
+      "product": ["Product 1", "Product 2"],
+      "amount": 29.98
+    },
+    {
+      "key": "2",
+      "createdAt": "2022-04-12T10:00:00Z",
+      "name": "Jane Smith",
+      "product": ["Product 3"],
+      "amount": 29.99
+    },
+    {
+      "key": "3",
+      "createdAt": "2022-04-11T14:30:00Z",
+      "name": "Bob Johnson",
+      "product": ["Product 1", "Product 4"],
+      "amount": 49.98
+    }
   ]
 }
