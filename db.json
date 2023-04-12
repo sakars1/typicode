@@ -38,22 +38,65 @@
       "key": "1",
       "createdAt": "2022-04-13T12:34:56Z",
       "name": "John Doe",
-      "product": ["Product 1", "Product 2"],
+      "products": [
+        {
+          "id": 1,
+          "title": "Product 1",
+          "description": "This is the description for Product 1.",
+          "price": 9.99,
+          "image": "https://example.com/images/product1.jpg",
+          "quantity": 1
+        },
+        {
+          "id": 2,
+          "title": "Product 2",
+          "description": "This is the description for Product 2.",
+          "price": 19.99,
+          "image": "https://example.com/images/product2.jpg",
+          "quantity": 1
+        }
+      ],
       "amount": 29.98
     },
     {
       "key": "2",
       "createdAt": "2022-04-12T10:00:00Z",
       "name": "Jane Smith",
-      "product": ["Product 3"],
+      "products": [
+        {
+          "id": 3,
+          "title": "Product 3",
+          "description": "This is the description for Product 3.",
+          "price": 29.99,
+          "image": "https://example.com/images/product3.jpg",
+          "quantity": 1
+        }
+      ],
       "amount": 29.99
     },
     {
       "key": "3",
       "createdAt": "2022-04-11T14:30:00Z",
       "name": "Bob Johnson",
-      "product": ["Product 1", "Product 4"],
-      "amount": 49.98
+      "products": [
+        {
+          "id": 1,
+          "title": "Product 1",
+          "description": "This is the description for Product 1.",
+          "price": 9.99,
+          "image": "https://example.com/images/product1.jpg",
+          "quantity": 2
+        },
+        {
+          "id": 4,
+          "title": "Product 4",
+          "description": "This is the description for Product 4.",
+          "price": 39.99,
+          "image": "https://example.com/images/product4.jpg",
+          "quantity": 1
+        }
+      ],
+      "amount": 49.97
     }
   ]
 }
